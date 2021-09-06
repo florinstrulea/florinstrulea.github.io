@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+@font-face {
+  font-family: "Gilroy-Extra-Bold";
+  src: url("../fonts/gilroy-extrabold-webfont.woff"), url("../fonts/gilroy-extrabold-webfont.woff2"), url("../fonts/gilroy-extrabold-webfont.eot"), url("../fonts/gilroy-extrabold-webfont.svg"), url("../fonts/gilroy-extrabold-webfont.ttf");
+}
+@font-face {
+  font-family: "Halflings-regular";
+  src: url("../fonts/glyphicons-halflings-regular.woff"), url("../fonts/glyphicons-halflings-regular.woff2"), url("../fonts/glyphicons-halflings-regular.eot"), url("../fonts/glyphicons-halflings-regular.svg"), url("../fonts/glyphicons-halflings-regular.ttf");
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /*with this 1rem=10px instead of 16px */
+  margin: 0 auto;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Titillium Web", "Open-Sans";
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=main.css.map */
