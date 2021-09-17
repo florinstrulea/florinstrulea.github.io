@@ -98,13 +98,13 @@ body {
 }
 
 .cv {
-  color: #0275b8;
   font-size: 2rem;
+  font-weight: 900;
   background-color: #0275b8;
   display: inline-block;
   padding: 0 1rem 0 1rem;
 }
-.cv .fas {
+.cv .fa-download {
   margin: 0;
 }
 
@@ -251,7 +251,7 @@ figure figcaption {
   transform: translateX(24px);
 }
 
-.dark {
+.light {
   background-color: white;
   color: black;
 }

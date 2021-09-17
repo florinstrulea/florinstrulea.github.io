@@ -2,13 +2,12 @@ const checkbox = document.querySelector("#checkbox");
 const body = document.querySelector("body");
 const label = document.querySelector(".label");
 const button = document.querySelector(".switch");
+const cv = document.querySelector(".cv");
 
 checkbox.addEventListener("click", () => {
-	body.classList.toggle("dark");
+	body.classList.toggle("light");
 	label.classList.toggle("white");
 	label.classList.toggle("black");
-	button.classList.toggle("dark");
-
-	// button.classList.toggle("black");
-	// label.classList.toggle("white");
+	button.classList.toggle("light");
+	cv.classList.toggle("text-white");
 });
