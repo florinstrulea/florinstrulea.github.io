@@ -1,0 +1,6 @@
+@use "../../sass/abstracts/variables" as v;
+@mixin rotate {
+	transform: rotatez(0) scale(1.1);
+	transition: all ease-in-out 0.5s;
+	z-index: 1;
+}

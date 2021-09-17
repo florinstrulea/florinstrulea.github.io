@@ -2,17 +2,18 @@
 
 @font-face {
 	font-family: "Gilroy-Extra-Bold";
-	src: url("../fonts/gilroy-extrabold-webfont.woff"), url("../fonts/gilroy-extrabold-webfont.woff2"),
-		url("../fonts/gilroy-extrabold-webfont.eot"), url("../fonts/gilroy-extrabold-webfont.svg"),
-		url("../fonts/gilroy-extrabold-webfont.ttf");
+	src: url("../../fonts/gilroy-extrabold-webfont.woff"),
+		url("../../fonts/gilroy-extrabold-webfont.woff2"),
+		url("../../fonts/gilroy-extrabold-webfont.eot"), url("../../fonts/gilroy-extrabold-webfont.svg"),
+		url("../../fonts/gilroy-extrabold-webfont.ttf");
 }
 @font-face {
 	font-family: "Halflings-regular";
-	src: url("../fonts/glyphicons-halflings-regular.woff"),
-		url("../fonts/glyphicons-halflings-regular.woff2"),
-		url("../fonts/glyphicons-halflings-regular.eot"),
-		url("../fonts/glyphicons-halflings-regular.svg"),
-		url("../fonts/glyphicons-halflings-regular.ttf");
+	src: url("../../fonts/glyphicons-halflings-regular.woff"),
+		url("../../fonts/glyphicons-halflings-regular.woff2"),
+		url("../../fonts/glyphicons-halflings-regular.eot"),
+		url("../../fonts/glyphicons-halflings-regular.svg"),
+		url("../../fonts/glyphicons-halflings-regular.ttf");
 }
 
 *,
@@ -20,7 +21,7 @@
 *::before {
 	// margin: 0;
 	// padding: 0;
-	box-sizing: inherit;
+	box-sizing: border-box;
 }
 html {
 	font-size: 62.5%; /*with this 1rem=10px instead of 16px */
@@ -31,4 +32,9 @@ body {
 	box-sizing: border-box;
 	font-family: "Titillium Web", "Open-Sans";
 	font-size: 1.6rem;
+}
+
+.container-fluid {
+	max-width: 90%;
+	margin: 0 auto;
 }
