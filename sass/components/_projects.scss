@@ -1,11 +1,46 @@
 @use "../../sass/abstracts/mixins" as m;
 @use "../../sass/abstracts/variables" as v;
+@use "../../sass/base/animations" as a;
+
 .project {
 	display: flex;
+	position: relative;
+	border-radius: 1rem;
+	overflow: hidden;
+	box-shadow: 2px 0 5px 1px rgba(v.$white, 0.5);
+
+	.hidden {
+		visibility: none;
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(v.$primary, 0.6);
+
+		&-buttons {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-49px);
+		}
+	}
+
+	&:hover .hidden {
+		visibility: visible;
+		opacity: 1;
+		transition: all 0.7s ease-in-out;
+	}
+
 	@media screen and (max-width: 1199px) {
 		max-width: 80%;
 		margin: 0 auto;
 		margin-bottom: 2rem;
+
+		.hidden {
+			visibility: visible;
+			opacity: 1;
+		}
 	}
 
 	img {
@@ -14,17 +49,16 @@
 	}
 }
 
-figure {
-	position: relative;
-	margin: 0;
-	figcaption {
-		position: absolute;
-		top: 50%;
-		left: 0;
-	}
-}
-
 @media screen and(min-width:1200px) {
+	.project {
+		margin: 0;
+		&:hover {
+			.project-title {
+				animation-name: myAnimationLeft;
+				animation-duration: 1.2s;
+			}
+		}
+	}
 	.projects-container {
 		display: grid;
 		min-height: 90%;
@@ -67,4 +101,8 @@ figure {
 		grid-row-start: 5;
 		grid-row-end: 7;
 	}
+}
+
+.box-shadow-dark {
+	box-shadow: 5px 0 5px 1px rgba(v.$black, 1);
 }
