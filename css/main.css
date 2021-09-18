@@ -82,13 +82,11 @@ body {
 .about-me {
   font-size: 1.6rem;
   text-align: justify;
-  margin-bottom: 1rem;
 }
 
 .coordinates-container {
   font-size: 1.8rem;
   font-weight: 500;
-  margin: 1rem 0;
 }
 
 .coordinate:hover .fas {
@@ -141,6 +139,10 @@ body {
 .description-title,
 .projects-title {
   font-size: 3rem;
+}
+
+.margin--bottom {
+  margin-bottom: 5rem;
 }
 
 .btn-project {
@@ -325,6 +327,15 @@ body {
 .light {
   background-color: white;
   color: black;
+}
+
+.language img {
+  max-width: 100%;
+}
+
+.flag {
+  width: 8%;
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
