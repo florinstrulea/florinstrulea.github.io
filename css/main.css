@@ -314,6 +314,9 @@ body {
   position: absolute;
   transition: transform 0.2s ease-out;
 }
+.switch:hover {
+  cursor: pointer;
+}
 
 .checkbox {
   opacity: 0;
@@ -336,6 +339,9 @@ body {
 .flag {
   width: 8%;
   margin-right: 1rem;
+}
+.flag:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,4 +4,7 @@
 .flag {
 	width: 8%;
 	margin-right: 1rem;
+	&:hover {
+		cursor: pointer;
+	}
 }

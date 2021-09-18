@@ -27,6 +27,9 @@
 	border-radius: 50%;
 	position: absolute;
 	transition: transform 0.2s ease-out;
+	&:hover {
+		cursor: pointer;
+	}
 }
 .checkbox {
 	opacity: 0;

@@ -12,8 +12,8 @@
 		<header>
 			<div class="container-fluid d-flex justify-content-between">
 				<div class="language d-flex">
-					<div class="flag"><img src="img/france.png" alt="" /></div>
-					<div class="flag"><img src="img/english.png" alt="" /></div>
+					<div class="flag" id="french"><img src="img/france.png" alt="" /></div>
+					<div class="flag" id="english"><img src="img/english.png" alt="" /></div>
 				</div>
 				<div class="color">
 					<input type="checkbox" class="checkbox" id="checkbox" />
@@ -32,10 +32,21 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="naming-container col-md-7 mb-2">
-						<div class="greeting"><p>Hi, My name is:</p></div>
+						<div class="greeting">
+							<p id="greeting" data-en="Hi, My name is:" data-fr="Bonjour, je suis:">
+								Hi, My name is:
+							</p>
+						</div>
 
 						<h1 class="name text-center">Florin Strulea</h1>
-						<p class="job text-center" id="job">Junior Web Developpeur</p>
+						<p
+							class="job text-center"
+							id="job"
+							data-en="Junior Web Developper"
+							data-fr="Développeur Web Junior"
+						>
+							Junior Web Developper
+						</p>
 					</div>
 					<div
 						class="
@@ -51,8 +62,24 @@
 
 				<div class="row">
 					<div class="description-container col-md-7 pe-5">
-						<p class="text-center description-title">About Me</p>
-						<p class="about-me margin--bottom">
+						<p
+							class="text-center description-title"
+							id="about-me-title"
+							data-fr="À propos de moi"
+							data-en="About-me"
+						>
+							About Me
+						</p>
+						<p
+							class="about-me margin--bottom"
+							id="about-me-text"
+							data-en="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam commodi
+						perspiciatis nostrum in eos facere, quibusdam magni eligendi reiciendis perferendis.
+						Et numquam delectus neque blanditiis beatae eum a saepe?"
+							data-fr="Bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam commodi
+						perspiciatis nostrum in eos facere, quibusdam magni eligendi reiciendis perferendis.
+						Et numquam delectus neque blanditiis beatae eum a saepe?"
+						>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam commodi
 							perspiciatis nostrum in eos facere, quibusdam magni eligendi reiciendis perferendis.
 							Et numquam delectus neque blanditiis beatae eum a saepe?
@@ -87,8 +114,22 @@
 							></a>
 						</div>
 						<div class="technologies-title margin--bottom">
-							<p class="skills text-center">my ToolBox :</p>
-							<p class="skills text-center">Aquiring Knowledge ... Loading</p>
+							<p
+								class="skills text-center"
+								id="toolbox"
+								data-en="my ToolBox"
+								data-fr="ma BoiteÀOutils "
+							>
+								my ToolBox :
+							</p>
+							<p
+								class="skills text-center"
+								id="loading"
+								data-en="Aquiring Knowledge ... Loading"
+								data-fr="En cours d'acqusition...Chargement"
+							>
+								Aquiring Knowledge ... Loading
+							</p>
 						</div>
 						<div class="technologies-container d-flex justify-content-center flex-wrap mb-2">
 							<span class="technology">html </span><span class="technology">css </span
@@ -100,7 +141,14 @@
 						</div>
 					</div>
 					<div class="projects col-md-5">
-						<p class="text-center projects-title">My PROJECTS</p>
+						<p
+							class="text-center projects-title"
+							id="my-projects"
+							data-en="My PROJECTS"
+							data-fr="Mes PROJETS"
+						>
+							My PROJECTS
+						</p>
 						<div class="projects-container">
 							<div class="project project-1">
 								<img src="img/blue.jpg" alt="" />
