@@ -8,6 +8,9 @@
 	border-radius: 1rem;
 	overflow: hidden;
 	box-shadow: 2px 0 5px 1px rgba(v.$white, 0.5);
+	.project-title {
+		font-size: 1.6rem;
+	}
 
 	.hidden {
 		visibility: none;
@@ -17,7 +20,7 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background-color: rgba(v.$primary, 0.6);
+		background-color: rgba(v.$primary, 0.92);
 
 		&-buttons {
 			position: absolute;
@@ -46,6 +49,7 @@
 	img {
 		background-size: cover;
 		max-width: 100%;
+		min-height: 100%;
 	}
 }
 
@@ -61,7 +65,7 @@
 	}
 	.projects-container {
 		display: grid;
-		min-height: 90%;
+		min-height: 80%;
 		grid-template-rows: repeat(6, 1fr);
 		grid-template-columns: repeat(6, 1fr);
 		grid-gap: 2rem;

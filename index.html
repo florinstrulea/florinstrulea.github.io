@@ -4,210 +4,241 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/main.css" />
-		<title>Florin Strulea PORTFOLIO</title>
+		<title>Florin Strulea | 👨‍💻 | Developpeur Web Junior |</title>
 	</head>
 	<body class="">
-		<header>
-			<div class="container-fluid d-flex justify-content-between">
-				<div class="language d-flex">
-					<div class="flag" id="french"><img src="img/france.png" alt="" /></div>
-					<div class="flag" id="english"><img src="img/english.png" alt="" /></div>
-				</div>
-				<div class="color">
-					<input type="checkbox" class="checkbox" id="checkbox" />
-					<label
-						class="label white d-flex justify-content-between align-items-center"
-						for="checkbox"
-						><i class="fas fa-sun"></i>
-						<i class="fas fa-moon"></i>
+		<!-- ======================================= HEADER ======================================= -->
+		<header class="container-fluid d-flex justify-content-between">
+			<div class="language d-flex">
+				<div class="flag" id="french"><img src="img/france.png" alt="" /></div>
+				<div class="flag" id="english"><img src="img/english.png" alt="" /></div>
+			</div>
+			<div class="color">
+				<input type="checkbox" class="checkbox" id="checkbox" />
+				<label class="label white d-flex justify-content-between align-items-center" for="checkbox"
+					><i class="fas fa-sun"></i>
+					<i class="fas fa-moon"></i>
 
-						<div class="switch"></div>
-					</label>
-				</div>
+					<div class="switch"></div>
+				</label>
 			</div>
 		</header>
-		<main>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="naming-container col-md-7 mb-2">
-						<div class="greeting">
-							<p id="greeting" data-en="Hi, My name is:" data-fr="Bonjour, je suis:">
-								Hi, My name is:
-							</p>
-						</div>
+		<!-- ======================================= MAIN ======================================= -->
 
-						<h1 class="name text-center">Florin Strulea</h1>
-						<p
-							class="job text-center"
-							id="job"
-							data-en="Junior Web Developper"
-							data-fr="Développeur Web Junior"
-						>
-							Junior Web Developper
+		<main class="container-fluid">
+			<div class="row">
+				<div class="naming-container col-md-7">
+					<div class="greeting">
+						<p id="greeting" data-en="Hi, My name is:" data-fr="Bonjour, je suis:">
+							Hi, My name is:
 						</p>
 					</div>
-					<div
-						class="
-							picture-container
-							col-md-5
-							d-flex
-							justify-content-center justify-content-md-center
-						"
+					<h1 class="name text-center">Florin Strulea</h1>
+
+					<p
+						class="job text-center"
+						id="job"
+						data-en="Junior Web Developper"
+						data-fr="Développeur Web Junior"
 					>
-						<img class="" src="img/portfolioPicture.jpg" alt="Florin Strulea" />
-					</div>
+						Junior Web Developper
+					</p>
 				</div>
-
-				<div class="row">
-					<div class="description-container col-md-7 pe-5">
-						<p
-							class="text-center description-title"
-							id="about-me-title"
-							data-fr="À propos de moi"
-							data-en="About-me"
-						>
-							About Me
-						</p>
-						<p
-							class="about-me margin--bottom"
-							id="about-me-text"
-							data-en="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam commodi
-						perspiciatis nostrum in eos facere, quibusdam magni eligendi reiciendis perferendis.
-						Et numquam delectus neque blanditiis beatae eum a saepe?"
-							data-fr="Bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam commodi
-						perspiciatis nostrum in eos facere, quibusdam magni eligendi reiciendis perferendis.
-						Et numquam delectus neque blanditiis beatae eum a saepe?"
-						>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam commodi
-							perspiciatis nostrum in eos facere, quibusdam magni eligendi reiciendis perferendis.
-							Et numquam delectus neque blanditiis beatae eum a saepe?
-						</p>
-
-						<div class="coordinates-container margin--bottom">
-							<p class="coordinate"><i class="fas fa-phone-alt"></i> 06.52.21.59.39</p>
-							<p class="coordinate"><i class="fas fa-envelope"></i> florin_strulea@yahoo.com</p>
-							<p class="coordinate"><i class="fas fa-map-marker"></i> 02000, Laon</p>
-						</div>
-
-						<div
-							class="
-								social-container
-								d-flex
-								justify-content-center
-								align-items-center
-								margin--bottom
-							"
-						>
-							<a href="https://github.com/fstrulea" target="_blank" class="btn social"
-								><i class="fab fa-github-square"></i
-							></a>
-							<a href="/cv/CV-Florin-Strulea.pdf" target="_blank" class="btn social cv text-white"
-								>CV <i class="fas fa-download"></i>
-							</a>
-							<a
-								href="https://www.linkedin.com/in/florin-strulea/"
-								target="_blank"
-								class="btn social"
-								><i class="fab fa-linkedin"></i
-							></a>
-						</div>
-						<div class="technologies-title margin--bottom">
-							<p
-								class="skills text-center"
-								id="toolbox"
-								data-en="my ToolBox"
-								data-fr="ma BoiteÀOutils "
-							>
-								my ToolBox :
-							</p>
-							<p
-								class="skills text-center"
-								id="loading"
-								data-en="Aquiring Knowledge ... Loading"
-								data-fr="En cours d'acqusition...Chargement"
-							>
-								Aquiring Knowledge ... Loading
-							</p>
-						</div>
-						<div class="technologies-container d-flex justify-content-center flex-wrap mb-2">
-							<span class="technology">html </span><span class="technology">css </span
-							><span class="technology">bootstrap </span><span class="technology">sass </span
-							><span class="technology">git </span><span class="technology">javascript </span
-							><span class="technology">react </span><span class="technology">react native </span
-							><span class="technology">php </span><span class="technology">sql </span
-							><span class="technology">wordpress </span><span class="technology">prestashop </span>
-						</div>
-					</div>
-					<div class="projects col-md-5">
-						<p
-							class="text-center projects-title"
-							id="my-projects"
-							data-en="My PROJECTS"
-							data-fr="Mes PROJETS"
-						>
-							My PROJECTS
-						</p>
-						<div class="projects-container">
-							<div class="project project-1">
-								<img src="img/blue.jpg" alt="" />
-								<div class="hidden text-center text-white d-flex justify-content-center">
-									<div class="hidden-buttons">
-										<i class="fas fa-search"></i>
-										<p class="project-title">Imaginary City-Break Agency</p>
-										<a class="btn-project" href="">Discover more</a>
-									</div>
-								</div>
-							</div>
-							<div class="project project-2">
-								<img src="img/green.jpg" alt="" />
-								<div class="hidden text-center text-white d-flex justify-content-center">
-									<div class="hidden-buttons">
-										<i class="fas fa-search"></i>
-										<p class="project-title">Project</p>
-										<a class="btn-project" href="">Discover more</a>
-									</div>
-								</div>
-							</div>
-							<div class="project project-3">
-								<img src="img/yellow.jpg" alt="" />
-								<div class="hidden text-center text-white d-flex justify-content-center">
-									<div class="hidden-buttons">
-										<i class="fas fa-search"></i>
-										<p class="project-title">Project</p>
-										<a class="btn-project" href="">Discover more</a>
-									</div>
-								</div>
-							</div>
-							<div class="project project-4">
-								<img src="img/red.jpg" alt="" />
-								<div class="hidden text-center text-white d-flex justify-content-center">
-									<div class="hidden-buttons">
-										<i class="fas fa-search"></i>
-										<p class="project-title">Project</p>
-										<a class="btn-project" href="">Discover more</a>
-									</div>
-								</div>
-							</div>
-							<div class="project project-5">
-								<img src="img/purple.jpg" alt="" />
-								<div class="hidden text-center text-white d-flex justify-content-center">
-									<div class="hidden-buttons">
-										<i class="fas fa-search"></i>
-										<p class="project-title">Project</p>
-										<a class="btn-project" href="">Discover more</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div
+					class="picture-container col-md-5 d-flex justify-content-center justify-content-md-center"
+				>
+					<img class="" src="img/portfolioPicture.jpg" alt="Florin Strulea" />
 				</div>
 			</div>
-			<div class="container"></div>
+
+			<div class="row">
+				<!-- ======================================= DESCRIPTION ======================================= -->
+
+				<section class="description-container col-lg-7 pe-5">
+					<p
+						class="text-center description-title"
+						id="about-me-title"
+						data-fr="À propos de moi"
+						data-en="About Me"
+					>
+						About Me
+					</p>
+					<p
+						class="about-me margin--bottom"
+						id="about-me-text"
+						data-en="I am a positive, enthusiastic and curious person who is always learning. I discovered web development and since it became a passion. I started developping my skills as an autodidact by learning online and creating personal projects and then decided  to take an formal training in order to learn more.
+						"
+						data-fr="Je suis une personne positive, enthousiaste et curieuse qui apprend toujours. J'ai découvert le développement web et depuis c'est devenu une passion. J'ai commencé à développer mes compétences en tant qu'autodidacte en apprenant en ligne et en créant des projets personnels, puis j'ai décidé de suivre une formation pour apprendre davantage."
+					>
+						I am a positive, enthusiastic and curious person who is always learning. I discovered
+						web development and since it became a passion. I started developping my skills as an
+						autodidact by learning online and creating personal projects and then decided to take an
+						formal training in order to learn more
+					</p>
+
+					<p
+						class="about-me margin--bottom"
+						id="freetime"
+						data-en="In my free time I like to play indoor footbal or basketball. I also like to travel and visit cities"
+						data-fr="Pendant mon temps libre, j'aime jouer au footsal ou basketball. J'aime aussi voyager et visiter les villes"
+					>
+						In my free time I like to play indoor footbal or basketball. I also like to travel and
+						visit cities
+					</p>
+
+					<div class="coordinates-container margin--bottom">
+						<p class="coordinate"><i class="fas fa-phone-alt"></i> 06.52.21.59.39</p>
+						<p class="coordinate"><i class="fas fa-envelope"></i> florin_strulea@yahoo.com</p>
+						<p class="coordinate"><i class="fas fa-map-marker"></i> 02000, Laon</p>
+					</div>
+
+					<div
+						class="social-container d-flex justify-content-center align-items-center margin--bottom"
+					>
+						<a href="https://github.com/fstrulea" target="_blank" class="btn social"
+							><i class="fab fa-github-square color-go"></i
+						></a>
+						<a href="/cv/CV-Florin-Strulea.pdf" target="_blank" class="btn social cv text-white"
+							>CV <i class="fas fa-download color-go"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/florin-strulea/" target="_blank" class="btn social"
+							><i class="fab fa-linkedin color-go"></i
+						></a>
+					</div>
+					<div class="technologies-title margin--bottom">
+						<p
+							class="skills text-center"
+							id="toolbox"
+							data-en="my ToolBox"
+							data-fr="ma BoiteÀOutils "
+						>
+							my ToolBox :
+						</p>
+						<p
+							class="skills text-center"
+							id="loading"
+							data-en="Aquiring Knowledge ... Loading"
+							data-fr="En cours d'acqusition...Chargement"
+						>
+							Aquiring Knowledge ... Loading
+						</p>
+					</div>
+					<div class="technologies-container d-flex justify-content-center flex-wrap mb-2">
+						<span class="technology">html </span><span class="technology">css </span
+						><span class="technology">bootstrap </span><span class="technology">sass </span
+						><span class="technology">git </span><span class="technology">javascript </span
+						><span class="technology">react </span><span class="technology">react native </span
+						><span class="technology">php </span><span class="technology">sql </span
+						><span class="technology">wordpress </span><span class="technology">prestashop </span>
+					</div>
+				</section>
+				<!-- ======================================= PROJECTS ======================================= -->
+
+				<section class="projects col-lg-5">
+					<p
+						class="text-center projects-title"
+						id="my-projects"
+						data-en="My PROJECTS"
+						data-fr="Mes PROJETS"
+					>
+						My PROJECTS
+					</p>
+					<div class="projects-container">
+						<div class="project project-1">
+							<img src="img/city-break.jpg" alt="" />
+							<div class="hidden text-center text-white d-flex justify-content-center">
+								<div class="hidden-buttons">
+									<i class="fas fa-search"></i>
+									<p class="project-title">Imaginary City-Break Agency</p>
+									<a
+										class="btn-project"
+										href="/pages/project1.html"
+										target="_blank"
+										data-en="Discover more"
+										data-fr="Voir le projet"
+										>Discover more</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="project project-2">
+							<img src="img/green.jpg" alt="" />
+
+							<div class="hidden text-center text-white d-flex justify-content-center">
+								<div class="hidden-buttons">
+									<i class="fas fa-search"></i>
+									<p class="project-title">Project</p>
+									<a
+										class="btn-project"
+										href="/pages/project2.html"
+										data-en="Discover more"
+										data-fr="Voir le projet"
+										>Discover more</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="project project-3">
+							<img src="img/yellow.jpg" alt="" />
+
+							<div class="hidden text-center text-white d-flex justify-content-center">
+								<div class="hidden-buttons">
+									<i class="fas fa-search"></i>
+									<p class="project-title">Project</p>
+									<a
+										class="btn-project"
+										href="/pages/project3.html"
+										data-en="Discover more"
+										data-fr="Voir le projet"
+										>Discover more</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="project project-4">
+							<img src="img/red.jpg" alt="" />
+
+							<div class="hidden text-center text-white d-flex justify-content-center">
+								<div class="hidden-buttons">
+									<i class="fas fa-search"></i>
+									<p class="project-title">Project</p>
+									<a
+										class="btn-project"
+										href="/pages/project4.html"
+										data-en="Discover more"
+										data-fr="Voir le projet"
+										>Discover more</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="project project-5">
+							<img src="img/purple.jpg" alt="" />
+
+							<div class="hidden text-center text-white d-flex justify-content-center">
+								<div class="hidden-buttons">
+									<i class="fas fa-search"></i>
+									<p class="project-title">Project</p>
+									<a
+										class="btn-project"
+										href="/pages/project5.html"
+										data-en="Discover more"
+										data-fr="Voir le projet"
+										>Discover more</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
 		</main>
 		<script src="https://kit.fontawesome.com/052c7b0e15.js" crossorigin="anonymous"></script>
-		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

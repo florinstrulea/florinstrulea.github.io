@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 @font-face {
 	font-family: "Gilroy-Extra-Bold";
@@ -8,12 +8,8 @@
 		url("../../fonts/gilroy-extrabold-webfont.ttf");
 }
 @font-face {
-	font-family: "Halflings-regular";
-	src: url("../../fonts/glyphicons-halflings-regular.woff"),
-		url("../../fonts/glyphicons-halflings-regular.woff2"),
-		url("../../fonts/glyphicons-halflings-regular.eot"),
-		url("../../fonts/glyphicons-halflings-regular.svg"),
-		url("../../fonts/glyphicons-halflings-regular.ttf");
+	font-family: "edo";
+	src: url("../../fonts/edo.ttf");
 }
 
 *,
@@ -30,8 +26,8 @@ html {
 
 body {
 	box-sizing: border-box;
-	font-family: "Titillium Web", "Open-Sans";
-	font-size: 1.6rem;
+	font-family: "Space Grotesk", "Open-Sans";
+	font-size: 1.3rem;
 }
 
 .container-fluid {

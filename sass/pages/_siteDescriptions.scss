@@ -1,0 +1,102 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+
+.projects-description {
+	margin: 0;
+	padding: 0;
+	background-color: v.$pages;
+}
+.bg-custom {
+	background-color: #573f1d;
+}
+.favicon {
+	width: 4rem;
+	@include m.press;
+}
+.name-logo {
+	font-size: 4rem;
+}
+.title-page {
+	margin: 10rem 0;
+	font-size: 8rem;
+	font-family: "edo", sans-serif;
+	text-transform: capitalize;
+}
+.name-project {
+	font-family: "edo", sans-serif;
+	letter-spacing: 2px;
+	font-size: 2.5rem;
+	margin-left: 20px;
+	color: #e2caa8;
+	text-transform: lowercase;
+}
+
+.image {
+	margin-bottom: 4rem;
+	img {
+		width: 100%;
+		height: 100%;
+		border-radius: 2rem;
+	}
+}
+
+.flag-title img {
+	width: 2.5rem;
+	&:hover {
+		cursor: pointer;
+		transform: scale(1.2);
+	}
+}
+.project-text {
+	font-size: 1.5rem;
+}
+.nav-text {
+	font-size: 2rem;
+}
+
+.btn-project-go {
+	margin-top: 1rem;
+	font-size: 1.6rem;
+	background-color: v.$black;
+	&:link,
+	&:visited,
+	&:active {
+		color: v.$white;
+		border-radius: 1rem;
+		padding: 1rem;
+	}
+}
+.layout-text {
+	margin-bottom: 3rem;
+	text-align: justify;
+	line-height: 4rem;
+	font-size: 1.6rem;
+	letter-spacing: 2px;
+}
+
+.title-secondary {
+	font-size: 5rem;
+	margin-bottom: 3rem;
+}
+.dropdown-menu .dropdown-item {
+	background-color: v.$pages;
+	color: v.$white;
+	&:hover {
+		background-color: v.$white;
+		color: v.$pages;
+	}
+	&:active {
+		transform: translateX(10px);
+	}
+}
+.dropdown-menu .dropdown-divider {
+	margin: 0;
+}
+#navbarNav .navbar-nav .nav-item:hover {
+	background-color: v.$pages;
+	border-radius: 10px;
+	border-bottom: 2px solid white;
+}
+.nav-item {
+	@include m.press;
+}

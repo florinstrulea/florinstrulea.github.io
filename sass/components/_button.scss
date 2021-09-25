@@ -10,11 +10,10 @@
 		color: v.$black;
 		font-weight: bold;
 		text-decoration: none;
-		text-transform: capitalize;
+		text-transform: uppercase;
 		padding: 0.5rem 1rem;
 		border-radius: 5rem;
 		display: inline-block;
-
 		transition: 0.5s ease-out;
 		position: relative;
 	}

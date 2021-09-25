@@ -1,1 +1,8 @@
 @use "../../sass/abstracts/variables" as v;
+
+@mixin press {
+	&:active {
+		transform: translateY(5px);
+		transition: all 0.1s ease-out;
+	}
+}

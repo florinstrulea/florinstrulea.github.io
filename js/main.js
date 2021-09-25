@@ -1,4 +1,3 @@
-const checkbox = document.querySelector("#checkbox");
 const body = document.querySelector("body");
 const label = document.querySelector(".label");
 const button = document.querySelector(".switch");
@@ -7,19 +6,21 @@ const projects = document.querySelectorAll(".project");
 const french = document.querySelector("#french");
 const english = document.querySelector("#english");
 const selectors = document.querySelectorAll(
-	"#greeting, #job, #about-me-title, #my-projects, #about-me-text, #toolbox, #loading"
+	"#greeting, #job, #about-me-title, #my-projects, #about-me-text, #toolbox, #loading , #freetime, #home, .all-projects, #title, .project-text, #page-title, #description, .btn-project, .btn-project-go"
 );
 
-checkbox.addEventListener("click", () => {
-	body.classList.toggle("light");
-	label.classList.toggle("white");
-	label.classList.toggle("black");
-	button.classList.toggle("light");
-	cv.classList.toggle("text-white");
-	for (let project of projects) {
-		project.classList.toggle("box-shadow-dark");
-	}
-});
+if (document.URL.includes("index.html")) {
+	document.querySelector("#checkbox").addEventListener("click", () => {
+		body.classList.toggle("light");
+		label.classList.toggle("white");
+		label.classList.toggle("black");
+		button.classList.toggle("light");
+		cv.classList.toggle("text-white");
+		for (let project of projects) {
+			project.classList.toggle("box-shadow-dark");
+		}
+	});
+}
 
 french.addEventListener("click", () => {
 	for (let select of selectors) {
