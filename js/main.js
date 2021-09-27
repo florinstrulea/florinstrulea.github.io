@@ -10,16 +10,18 @@ const selectors = document.querySelectorAll(
 	"#greeting, #job, #about-me-title, #my-projects, #about-me-text, #toolbox, #loading , #freetime, #home, .all-projects, #title, .project-text, #page-title, #description, .btn-project, .btn-project-go"
 );
 
-document.querySelector("#checkbox").addEventListener("click", () => {
-	body.classList.toggle("light");
-	label.classList.toggle("white");
-	label.classList.toggle("black");
-	button.classList.toggle("light");
-	cv.classList.toggle("white-text");
-	for (let project of projects) {
-		project.classList.toggle("box-shadow-dark");
-	}
-});
+if (window.location.href.indexOf("franky") > -1) {
+	document.querySelector("#checkbox").addEventListener("click", () => {
+		body.classList.toggle("light");
+		label.classList.toggle("white");
+		label.classList.toggle("black");
+		button.classList.toggle("light");
+		cv.classList.toggle("white-text");
+		for (let project of projects) {
+			project.classList.toggle("box-shadow-dark");
+		}
+	});
+}
 
 french.addEventListener("click", () => {
 	for (let select of selectors) {
