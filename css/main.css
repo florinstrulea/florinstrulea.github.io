@@ -47,7 +47,7 @@ body {
 body {
   padding: 2rem 0;
   background-color: #212529;
-  color: white;
+  color: #edf2f4;
   letter-spacing: 2px;
 }
 
@@ -59,7 +59,7 @@ body {
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   display: inline-block;
   background-color: #069ef7;
-  color: white;
+  color: #edf2f4;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
   padding: 1rem;
@@ -154,7 +154,7 @@ a {
 }
 
 .btn-project {
-  background-color: white;
+  background-color: #edf2f4;
 }
 .btn-project:link, .btn-project:visited, .btn-project:active {
   color: #212529;
@@ -192,7 +192,7 @@ a {
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 2px 0 5px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 0 5px 1px rgba(237, 242, 244, 0.5);
 }
 .project .project-title {
   font-size: 1.6rem;
@@ -308,7 +308,7 @@ a {
 }
 
 .white {
-  background-color: white;
+  background-color: #edf2f4;
 }
 
 .fa-moon,
@@ -340,7 +340,7 @@ a {
 }
 
 .light {
-  background-color: white;
+  background-color: #edf2f4;
   color: #212529;
 }
 
@@ -426,7 +426,7 @@ a {
   background-color: #212529;
 }
 .btn-project-go:link, .btn-project-go:visited, .btn-project-go:active {
-  color: white;
+  color: #edf2f4;
   border-radius: 1rem;
   padding: 1rem;
 }
@@ -446,10 +446,10 @@ a {
 
 .dropdown-menu .dropdown-item {
   background-color: #1d3557;
-  color: white;
+  color: #edf2f4;
 }
 .dropdown-menu .dropdown-item:hover {
-  background-color: white;
+  background-color: #edf2f4;
   color: #1d3557;
 }
 .dropdown-menu .dropdown-item:active {
