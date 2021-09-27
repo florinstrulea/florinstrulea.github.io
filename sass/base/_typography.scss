@@ -70,6 +70,7 @@ body {
 	background-color: v.$primary;
 	display: inline-block;
 	padding: 0 1rem 0 1rem;
+
 	.fa-download {
 		margin: 0;
 	}
@@ -98,7 +99,9 @@ body {
 a {
 	outline: none;
 	border: none;
-
 	display: inline-block;
 	padding: 0;
+}
+.white-text {
+	color: v.$white;
 }

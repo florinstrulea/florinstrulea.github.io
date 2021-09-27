@@ -153,6 +153,10 @@ a {
   padding: 0;
 }
 
+.white-text {
+  color: #edf2f4;
+}
+
 .btn-project {
   background-color: #edf2f4;
 }
