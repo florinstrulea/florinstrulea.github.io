@@ -7,9 +7,14 @@
 		url("../fonts/gilroy-extrabold-webfont.ttf");
 }
 @font-face {
-	font-family: "Edo-Regular";
-	src: url("../fonts/edo-webfont.woff"), url("../fonts/edo-webfont.eot"),
-		url("../fonts/edo-webfont.svg"), url("../fonts/edo-webfont.ttf");
+	font-family: "Edo";
+	src: url("../fonts/Edo.eot");
+	src: url("../fonts/Edo.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Edo.woff2") format("woff2"), url("../fonts/Edo.woff") format("woff"),
+		url("Edo.ttf") format("truetype"), url("../fonts/Edo.svg#Edo") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 *,
