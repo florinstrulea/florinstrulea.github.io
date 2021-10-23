@@ -71,7 +71,7 @@ body {
 }
 
 .name {
-  font-family: "Edo", sans-serif;
+  font-family: "Edo", "Gilroy-Extra-Bold", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: uppercase;
   font-size: 5rem;
   font-weight: bold;
@@ -391,12 +391,12 @@ a {
 .title-page {
   margin: 10rem 0;
   font-size: 5rem;
-  font-family: "Edo", "sans-serif";
+  font-family: "Edo", "Gilroy-Extra-Bold", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: capitalize;
 }
 
 .name-project {
-  font-family: "Edo", "sans-serif";
+  font-family: "Edo", "Gilroy-Extra-Bold", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   letter-spacing: 2px;
   font-size: 2.5rem;
   margin-left: 20px;
