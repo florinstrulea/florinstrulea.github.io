@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+@font-face {
+  font-family: "Gilroy-Extra-Bold";
+  src: url("../fonts/gilroy-extrabold-webfont.woff"), url("../fonts/gilroy-extrabold-webfont.woff2"), url("../fonts/gilroy-extrabold-webfont.eot"), url("../fonts/gilroy-extrabold-webfont.svg"), url("../fonts/gilroy-extrabold-webfont.ttf");
+}
+@font-face {
+  font-family: "Halflings-regular";
+  src: url("../fonts/glyphicons-halflings-regular.woff"), url("../fonts/glyphicons-halflings-regular.woff2"), url("../fonts/glyphicons-halflings-regular.eot"), url("../fonts/glyphicons-halflings-regular.svg"), url("../fonts/glyphicons-halflings-regular.ttf");
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /*with this 1rem=10px instead of 16px */
+  margin: 0 auto;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Titillium Web", "Open-Sans";
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-family: "Gilroy-Extra-Bold";
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  color: #333333;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.video div p {
+  font-size: 7rem;
+}
+
+.glyph {
+  font-family: "Halflings-regular";
+  font-size: 3rem;
+}
+
+.bt--grey {
+  background-color: #d2d0c3;
+  color: #545753;
+  font-weight: 700;
+  display: inline;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.bt--select {
+  color: white;
+  font-size: 1.5rem;
+}
+.bt--select:hover {
+  padding: 0 0 0.1rem 0;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.bt--plus {
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn--footer {
+  font-size: 1.5rem;
+}
+
+.fullscreen-bg-video {
+  width: 100%;
+}
+
+.video {
+  position: relative;
+}
+
+.content-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+@keyframes upDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+.move {
+  z-index: 1000;
+  animation-name: upDown;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.recipie {
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.recipie img {
+  width: 2rem;
+}
+.recipie-1 {
+  background-color: #e20614;
+}
+.recipie-2 {
+  background-color: #a0c525;
+  align-self: flex-end;
+}
+.recipie-3 {
+  background-color: #c94c05;
+}
+.recipie hr {
+  font-size: 4rem;
+  width: 100%;
+  height: 2px;
+  text-align: center;
+  opacity: 1;
+}
+
+.container-secondary {
+  padding: 2rem;
+}
+
+.container-tertiary {
+  padding: 2rem;
+}
+
+.result {
+  background-color: #d2d0c3;
+  text-align: center;
+  padding: 10rem 0;
+}
+.result__choice {
+  font-size: 3rem;
+  font-weight: 2rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+iframe {
+  width: 100%;
+}
+
+.iframe {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #464646;
+  color: white;
+  padding: 5rem 0;
+}
+
+/*# sourceMappingURL=main.css.map */
