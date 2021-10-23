@@ -4,8 +4,12 @@
   src: url("../fonts/gilroy-extrabold-webfont.woff"), url("../fonts/gilroy-extrabold-webfont.woff2"), url("../fonts/gilroy-extrabold-webfont.eot"), url("../fonts/gilroy-extrabold-webfont.svg"), url("../fonts/gilroy-extrabold-webfont.ttf");
 }
 @font-face {
-  font-family: "Edo-Regular";
-  src: url("../fonts/edo-webfont.woff"), url("../fonts/edo-webfont.eot"), url("../fonts/edo-webfont.svg"), url("../fonts/edo-webfont.ttf");
+  font-family: "Edo";
+  src: url("../fonts/Edo.eot");
+  src: url("../fonts/Edo.eot?#iefix") format("embedded-opentype"), url("../fonts/Edo.woff2") format("woff2"), url("../fonts/Edo.woff") format("woff"), url("Edo.ttf") format("truetype"), url("../fonts/Edo.svg#Edo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 *,
 *::after,
@@ -67,7 +71,7 @@ body {
 }
 
 .name {
-  font-family: "Edo-Regular", sans-serif;
+  font-family: "Edo", sans-serif;
   text-transform: uppercase;
   font-size: 5rem;
   font-weight: bold;
@@ -159,6 +163,7 @@ a {
 
 .btn-project {
   background-color: #edf2f4;
+  margin-bottom: 2rem;
 }
 .btn-project:link, .btn-project:visited, .btn-project:active {
   color: #212529;
@@ -385,13 +390,13 @@ a {
 
 .title-page {
   margin: 10rem 0;
-  font-size: 8rem;
-  font-family: "Edo-Regular", sans-serif;
+  font-size: 5rem;
+  font-family: "Edo", "sans-serif";
   text-transform: capitalize;
 }
 
 .name-project {
-  font-family: "Edo-Regular", sans-serif;
+  font-family: "Edo", "sans-serif";
   letter-spacing: 2px;
   font-size: 2.5rem;
   margin-left: 20px;
